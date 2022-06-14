@@ -10,7 +10,6 @@
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <!--　aframe-extras.min.js を読み込む -->
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
-    <script　src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
     <title>宮崎と自然との共存</title>
   </head>
   <body style="margin: 0; overflow: hidden">
@@ -25,7 +24,6 @@
       <a-marker type="pattern" url="./assets/qr.patt">
         <!-- 3Dモデルを呼び出す -->
         <a-entity gltf-model="#event" animation-mixer></a-entity>
-	<a-entity position="0 2.25 -15" particle-system="preset:snow; particleCount: 5000; color: #fffafa,#f0f8ff"></a-entity>
       </a-marker>
 
       <!-- カメラを追加 -->
